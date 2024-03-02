@@ -1,0 +1,109 @@
+Sublimetext:   https://www.sublimetext.com/download
+
+Git and GitHub
+
+What is the difference between Git & Github:
+
+Git is an open source Distributed Version Control System(DVCS) which records
+changes made to files (codes) laying emphasis on speed, data integrity in a
+distributed non-linear workflows.
+
+GitHub is a source code management tool/platform owned by microsoft
+
+SCM==  Source Code management Platforms
+ 1. Github-Distributed Version Control System (99% support by MS and owned MS)
+ 2. Gitlab
+ 3. Bit Bucket
+ 4. AWS code commit
+
+Benefit Of Git:
+
+Data integrity
+Rollout and rollback functions
+Integrated with other platforms.
+
+As a devops engineer what are your responsibilities:
+
+ a. SME: Subject matter Expect
+    Recommendations to your company
+    Ensure that you environment is and configured appropriately
+    Creat an enabling environment for your developers write code or do their work
+    Create orginzations,onboard teams and projects
+    Assign roles and responsibilities to yoor team members. 
+
+
+    Git- Github
+    Github ----https://github.com/
+
+    To Craete a github a/c: 
+    Requirement:
+    Email address
+    password
+    Username
+
+    Select school or free account
+
+    Create an organization
+    Create teams and add members
+    Assign privillages
+    Create repository
+       Public Repo- Viewable to the public, you will still need access to make 
+        changes in the Repo 
+       Private Repo- Not viewable to the public
+
+    When you create Repo; It assign a URL to your Repo 
+
+    Example
+
+    https://github.com/kolby4000/chase
+
+    https://github.com/kolby4000/paypal
+
+
+    Granting privillages to team members
+    	Go to organization
+    	People
+    	Select team member
+      Grant access 
+
+   =============================================================================   
+
+   Install git in Windows
+   Install gitbash @ https://git-scm.com/downloads
+
+   $ git -v
+   git version 2.38.1.windows.1
+
+   Install in RedHAT Linux servers:
+   sudo yum install git -y
+
+   Install in ubuntu Linux servers:
+   sudo apt install git -y 
+
+   Downloading package:
+   wget / curl
+
+   sudo yum/apt/choco/brew/
+    install git 
+   
+   ===============================================================================
+   ===============================================================================
+   -------------------------------------------------------------------------------
+
+
+[kobby@homeclient gitclass]$ git remote -v
+origin  https://github.com/kolby4000/Paypal2.git (fetch)
+origin  https://github.com/kolby4000/Paypal2.git (push)
+pp      https://github.com/kolby4000/paypal (fetch)
+pp      https://github.com/kolby4000/paypal (push)
+[kobby@homeclient gitclass]$ git push -f pp main
+Username for 'https://github.com': kolby4000
+Password for 'https://kolby4000@github.com': 
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 1.12 KiB | 1.12 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kolby4000/paypal
+ + 6ed6dd6...67801bd main -> main (forced update)
+[kobby@homeclient gitclass]
